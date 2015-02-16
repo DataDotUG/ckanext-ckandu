@@ -1,0 +1,6 @@
+
+        [ckan.plugins]
+        ckandutheme=ckanext.ckandu.plugin:CkanDuThemePlugin
+        # Add plugins here, e.g.
+        # myplugin=ckanext.ckandu.plugin:PluginClass
+    
