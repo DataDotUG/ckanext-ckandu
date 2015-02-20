@@ -8,6 +8,6 @@ urlpatterns = patterns('',
 
     # Static pages
 #    url(r'^$', 'geonode.views.index', {'template': 'site_index.html'}, name='home'),
-    url(r'^$', RedirectView.as_view(url='/dataset/')),
+    url(r'^$', RedirectView.as_view(permanent=False,url='http://catalog.data.ug/dataset/')),
  ) + urlpatterns
 
